@@ -1,0 +1,187 @@
+body {
+    margin-top: 0px;
+    background-color: #0F110E;
+}
+
+body { 
+    font-family: tahoma, verdana, sans-serif;
+    font-size: 100%;
+    line-height: 130%;
+}
+
+form, input, textarea, .no-line-height {
+    margin: 0;
+    line-height: normal;
+}
+
+input.action_button {
+    font-size: 75%;
+    height: 14pt;
+}
+
+.serif {
+    font-family: georgia, serif;
+}
+
+.tt {
+    font-family: monaco, courier, monospace;
+}
+
+tt, code {
+    font-family: monaco, courier, monospace;
+    font-size: 13px;
+}
+
+pre {
+    font-family: monaco, courier, monospace;
+    font-size: 11px;
+    line-height: normal;
+}
+
+.code {
+    font-family: monaco, courier, monospace;
+    font-size: 11px;
+    line-height: normal;
+    border: 1px solid #ccc;
+    padding: 3 5 3 5;
+ }
+
+
+div.form, div.content {
+    margin-top: 10px;
+    padding: 3px 9px 5px 9px;
+    background-color: #67987A;
+}
+
+p.prompt {
+    margin: 0;
+}
+
+textarea.SQLField {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 64pt;
+}
+
+tr.released {
+    vertical-align: text-bottom;
+}
+
+input.year {
+    width: 4em;
+}
+
+input.day {
+    width: 2em;
+}
+
+input.Ttrack_number {
+    width: 3em;
+}
+
+input.Ttitle {
+    width: 32em;
+}
+
+input.Tduration {
+    width: 6em;
+}
+
+input.Afield {
+    width: 400px;
+}
+
+p.buttons {
+    margin: 3px 0 0px 0;
+    text-align: right;
+}
+
+div.title_area {
+    border-bottom: 1px solid #5B3147;
+    margin-bottom: 10px;
+}
+
+table.title_area {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+table.form {
+    margin: 0;
+    padding: 0;
+}
+
+.title, .subtitle, .copyright {
+    line-height: normal;
+    color: #5B3147;
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle {
+    text-align: right;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24pt;
+    text-decoration: none;
+ }
+
+
+.yellowbox, .message, .error_message {
+    background-color: #67987A;
+    border: 1px solid #67987A;
+    padding: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.message, .error_message {
+    font-size: 80%;
+}
+.message {
+    color: #055;
+}
+
+.error_message {
+    color: #900;
+}
+
+.copyright {
+    margin: 0;
+    text-align: right;
+    font-size: 11px;
+}
+
+.footer {
+    margin-top: 30px;
+    border-top: 1px solid #5B3147;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* results */
+
+table.results {
+    border-collapse: collapse;
+}
+
+td.column_head, td.cell_value {
+    font-size: 80%;
+    padding: 0 3px 0 3px;
+    border: 1px solid #ccc;
+}
+
+td.column_head {
+    background-color: #dde;
+}
+
+td.cell_value {
+    background-color: #eed;
+}
+
